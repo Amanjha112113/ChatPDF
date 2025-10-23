@@ -1,0 +1,14 @@
+# Dependencies
+/node_modules
+/backend/venv
+
+# Build files
+/dist
+
+# Environment variables
+.env
+.env.*
+
+# IDE / OS files
+.DS_Store
+.idea/
