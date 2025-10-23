@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat with PDF - Powered by Gemini</title>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'brand-bg': '#111827',
+              'brand-surface': '#1F2937',
+              'brand-border': '#374151',
+              'brand-text': '#F9FAFB',
+              'brand-text-secondary': '#9CA3AF',
+              'brand-primary': '#3B82F6',
+              'brand-primary-hover': '#2563EB',
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.25.0",
+
+    "pdfjs-dist": "https://aistudiocdn.com/pdfjs-dist@^5.4.296",
+    "marked": "https://cdn.jsdelivr.net/npm/marked@13.0.2/+esm"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-brand-bg text-brand-text">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

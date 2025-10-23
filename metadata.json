@@ -1,0 +1,5 @@
+{
+  "name": "Chat with PDF",
+  "description": "An interactive web application that allows you to upload a PDF document and have a conversation with an AI assistant about its contents. Get summaries, find key information, and ask questions about your documents instantly.",
+  "requestFramePermissions": []
+}
