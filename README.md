@@ -26,19 +26,6 @@ This repository contains the frontend (TypeScript / React) and backend (Python) 
 - Vector database (FAISS / Chroma / Pinecone) for retrieval  
 - Chat endpoint to combine user query + context + model generation  
 
-## 📁 Project Structure  
-/
-├── backend/ # Python backend code for processing, embedding & API
-├── components/ # Frontend React components (chat UI, upload widget, etc.)
-├── services/ # Shared services (e.g., API client, embedding wrapper)
-├── Image/ # Folder containing screenshots & UI images
-│ └── your-screenshot-filename.png
-├── App.tsx # Entry point for the frontend
-├── index.tsx # Frontend bootstrap file
-├── package.json # Frontend dependencies
-├── requirements.txt # Backend Python dependencies
-└── README.md # This file
-
 
 ## 🏁 Getting Started  
 ### Prerequisites  
