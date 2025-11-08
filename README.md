@@ -1,5 +1,5 @@
 # ChatPDF  
-![ChatPDF Screenshot](ChatPDF/tree/main/Image.png)
+![Output](/2.png?raw=true)
 
 ## 🚀 Overview  
 *ChatPDF* is a web-based application that allows you to upload PDF documents and query them using natural-language questions. Behind the scenes, the system extracts and processes text from PDFs, converts them into embeddings, and uses a retrieval-augmented generation (RAG) framework to provide conversational answers.  
