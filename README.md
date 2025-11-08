@@ -34,8 +34,8 @@ This repository contains the frontend (TypeScript / React) and backend (Python) 
 - (Optional) An API key if you're using a hosted embedding or language model service  
 
 ### Setup & Run  
-**1. Clone the repository**
 ```bash
+**1. Clone the repository**
 git clone https://github.com/Amanjha112113/ChatPDF.git
 cd ChatPDF
 
